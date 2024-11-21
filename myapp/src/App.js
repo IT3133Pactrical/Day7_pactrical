@@ -9,7 +9,9 @@ function App() {
   }
   return(
     <div className='App'>
-
+      <h2>Hello react I'm Parent</h2>
+      <Childcom setfun={receiveName}/>
+      <p>Parent:My child said:{childname}</p>
     </div>
   )
 }
